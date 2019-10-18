@@ -27,7 +27,7 @@ $(function(){
 			
 			// ajax 통신
 			$.ajax({
-				url:"/jblog3/api/user/checkid?id=" + id,
+				url:"/jblog5/api/user/checkid?id=" + id,
 				type:"get",
 	 			dataType:"json",
 	 			data:"",
@@ -83,6 +83,7 @@ $(function(){
 			<p style="font-weight:bold; color:red; text-align:left; padding-left:5px 0 0 0;">
 				<form:errors path="id" />
 			</p>	
+			
 			<label class="block-label" for="password">패스워드</label>
 			<input id="password" name="password" type="password" />
 
