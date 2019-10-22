@@ -23,8 +23,6 @@ $(function(){
 			if(id == ""){
 				return;
 			}
-		
-			
 			// ajax 통신
 			$.ajax({
 				url:"/api/user/checkid?id=" + id,
